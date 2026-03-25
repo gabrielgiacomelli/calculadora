@@ -1,17 +1,24 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en"> 
+    <head>
+     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALCULADORA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+     <title>CALCULADORA</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
 <body>
-    <header>CALCULADORA SIMPLES</header>
-    <main>
-        <div class="flex">
-            <label for="conta">CONTA:</label>
-            <input type="text" id="conta" name="conta" placeholder="Adicione Uma Operação">
-        </div>
-    </main>
-</body>
+     <header>CALCULADORA SIMPLES</header> 
+    <div class="i"> 
+    <label for="numero1">Campo 1</label> 
+    <input type="number" id="numero1"><br> 
+    
+     <label for="numero2">Campo 2</label>
+     <input type="number" id="numero2"><br>
+     <button onclick="somar()">SOMAR</button> 
+     <button onclick="subtrair()">SUBTRAIR</button> 
+     <button onclick="multiplicar()">MULTIPLICAR</button>
+     <button onclick="dividir()">DIVIDIR</button>
+     <p id="resultado">RESULTADO: </p>
+ </div> 
+    <script src="operacao.js"></script> 
+</body> 
 </html>
