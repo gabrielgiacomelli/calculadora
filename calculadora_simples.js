@@ -1,11 +1,11 @@
 function somar(){
  let valor1 = Number(document.getElementById("numero1").value); 
  let valor2 = Number(document.getElementById("numero2").value);
- //Number(faz com que aceite apenas numeros) document(html) getelementbyid(procura no html o id) .value (uma variavel que recebe o que o input receber de informação)
+ //Number(faz com que aceite apenas numeros) document(html) getelementbyid(procura no html o id) .value (pega o valor do input)
  let resultado = valor1 + valor2;
 
 document.getElementById("resultado").innerText = "RESULTADO: " + resultado;
-//innertext(“Troca o texto que está dentro desse elemento pelo que eu mandei”)
+//innertext(muda o texto visível)
 }
 
 function subtrair(){
