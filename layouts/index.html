@@ -1,0 +1,25 @@
+<html lang="en"> 
+    <head>
+     <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CALCULADORA</title> 
+    <link rel="stylesheet" href="../style.css"> 
+</head> 
+<body>
+     <header>CALCULADORA SIMPLES</header> 
+    <div class="i"> 
+    <label for="numero1">Campo 1</label> 
+    <input type="number" id="numero1"><br> 
+    <!-- input(É a área onde o usuário digita ou seleciona informações) label ( É o texto que identifica o que deve ser digitado no input)-->
+     <!--type(define como campo funciona(oque entra))-->
+     <label for="numero2">Campo 2</label>
+     <input type="number" id="numero2"><br>
+     <button onclick="somar()">SOMAR</button> 
+     <button onclick="subtrair()">SUBTRAIR</button> 
+     <button onclick="multiplicar()">MULTIPLICAR</button>
+     <button onclick="dividir()">DIVIDIR</button>
+     <p id="resultado">RESULTADO: </p>
+ </div> 
+    <script src="../scripts/calculadora_simples.js"></script> 
+</body> 
+</html>
